@@ -13,6 +13,9 @@ primary_region = "sin"  # 新加坡（離台灣近），也可選 "nrt"（東京
   WEBHOOK_TUNNEL_URL = "https://n8n.rubino.de5.net/"  # ← 改成你的子域名！
   GENERIC_TIMEZONE = "Asia/Taipei"
   DB_TYPE = "sqlite"  # 免費方案用 SQLite（資料存在容器內）
+  N8N_COMMUNITY_PACKAGES_ENABLED = "false"
+  N8N_PUBLIC_API_DISABLED = "true"
+  N8N_USER_MANAGEMENT_DISABLED = "true"
 
 # 資源限制（免費層）
 [experimental]
